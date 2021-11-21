@@ -10,7 +10,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgb(250, 173, 142);
     position: sticky;
     top: 0;
   }
@@ -40,14 +40,13 @@
   
   /* Home section  */
   #home {
-     
     display: flex;
     flex-direction: column;
-    background-color: rgba(0, 0, 0, 0.5);
+    /* background-color: aquamarine; */
     height: 840px;
     justify-content: center;
     align-items: center;
-    color: white;
+    color: rgb(5, 0, 80);
   }
   
   #home::before {
@@ -65,7 +64,7 @@
   .main {
     display: flex;
     flex-direction: column;
-    border: 1px solid white;
+    border: 1px solid rgb(0, 0, 0);
     align-items: center;
     position: absolute;
     top: 30%;
@@ -76,20 +75,38 @@
     font-size: 3rem;
     text-align: center;
     margin: 40px 0px;
+    color: rgb(0, 15, 153);
+  }
+  .headings1 {
+    font-family: century;
+    font-size: 3rem;
+    text-align: center;
+    margin: 40px 0px;
+    color: rgb(255, 171, 60);
+  }
+  #hm{
+    color: rgb(175, 97, 1);
+    
+  }
+  #edu{
+    color: rgb(122, 81, 30);
+  }
+  #sk{
+    color: rgb(122, 81, 30);
   }
   .btn {
     padding: 10px 35px;
     background-color: transparent;
-    border: 1px solid white;
-    color: white;
+    border: 1px solid rgb(0, 0, 0);
+    color: rgb(0, 0, 0);
     outline: none;
     transition: 0.6s ease;
   }
   .btn:hover {
     cursor: pointer;
-    background-color: white;
+    background-color: rgb(0, 255, 170);
     color: black;
-    box-shadow: 0 0 5px white, 0 0 10px white, 0 0 15px white;
+    box-shadow: 0 0 5px rgb(0, 255, 170), 0 0 10px rgb(0, 255, 170), 0 0 15px rgb(0, 255, 170);
     font-weight: bold;
   }
   /* about section */
@@ -99,6 +116,7 @@
     box-sizing: border-box;
     padding: 20px;
     margin-bottom: 50px;
+    background-color: antiquewhite;
   }
   
   #pic {
@@ -120,12 +138,18 @@
     margin-bottom: 20px;
     text-align: center;
   }
+  #intro h4 {
+    font-size: 2rem;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    text-align: left;
+  }
   
   /* portfolio section */
   #portfolio {
     display: flex;
     flex-direction: column;
-    background-color: rgba(0, 0, 0, 0.9);
+    background-color: turquoise;
     color: white;
     align-items: center;
     padding: 20px;
@@ -141,12 +165,9 @@
     height: 240px;
     margin: 10px;
   }
-  #Services {
-    display: flex;
-    flex-direction: column;
-    padding: 20px;
+  .services{
+    background-color: rgb(243, 202, 148);
   }
-  
   .row {
     display: flex;
     justify-content: space-around;
@@ -165,7 +186,7 @@
     text-align: justify;
     padding: 10px;
     border-radius: 15px;
-    background: linear-gradient(to top, rgb(255, 45, 45) 50%, white 50%);
+    background: linear-gradient(to top, rgb(255, 142, 122) 50%, white 50%);
     background-size: 100% 200%;
     transition: all 0.8s;
   }
@@ -174,7 +195,7 @@
     background-position: left bottom;
     color: white;
     border: none;
-    box-shadow: 0 0 20px rgb(255, 45, 45);
+    box-shadow: 0 0 20px rgb(255, 131, 109);
   }
   .box img {
     width: 80px;
@@ -188,7 +209,7 @@
     display: flex;
     flex-direction: column;
     box-sizing: border-box;
-    background-color: rgba(0, 0, 0, 0.9);
+    background-color: silver;
     color: white;
   }
   
